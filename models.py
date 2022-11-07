@@ -4,7 +4,8 @@ cmd = ("filter",
        "map",
        "unique",
        "sorted",
-       "limit")
+       "limit",
+       "regex")
 
 
 
