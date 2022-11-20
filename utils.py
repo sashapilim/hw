@@ -12,7 +12,7 @@ def map_from_value(param, data: Iterable[str]) -> Iterator[str]:
 
 
 # в случае если она может принять именнованные и позиционные арг
-def unique(data: str, *args: Any, **kwargs: Any) -> set[str]:
+def unique(data, *args, **kwargs):
     return set(data)
 
 
