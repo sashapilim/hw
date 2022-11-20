@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify
 from marshmallow import ValidationError
-from models import SeveralParams
+from .models import SeveralParams
 from typing import Iterable, Optional
 
 from query import main_query
