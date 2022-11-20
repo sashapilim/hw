@@ -3,7 +3,7 @@ from marshmallow import ValidationError
 from .models import SeveralParams
 from typing import Iterable, Optional
 
-from query import main_query
+from .query import main_query
 
 bp_main = Blueprint("main", __name__)
 
