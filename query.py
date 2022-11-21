@@ -1,5 +1,5 @@
 from typing import Dict, Callable, Generator, Union, Iterable, Optional
-from .utils import filter_from_params, map_from_value, unique, sort_query, limit_qeury, find_regex
+from utils import filter_from_params, map_from_value, unique, sort_query, limit_qeury, find_regex
 
 file: str = "data/apache_logs.txt"
 
